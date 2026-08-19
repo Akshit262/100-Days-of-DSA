@@ -1,3 +1,34 @@
+/*
+ * Day 03 - Linear Search
+ *
+ * Problem:
+ * Implement linear search to find a key k in an array.
+ * Count and display the number of comparisons performed.
+ *
+ * Input:
+ * - First line: integer n (array size)
+ * - Second line: n space-separated integers
+ * - Third line: integer k (key to search)
+ *
+ * Output:
+ * - Line 1: "Found at index i" OR "Not Found"
+ * - Line 2: "Comparisons = c"
+ *
+ * Example:
+ * Input:
+ * 5
+ * 10 20 30 40 50
+ * 30
+ *
+ * Output:
+ * Found at index 2
+ * Comparisons = 3
+ *
+ * Explanation:
+ * The key 30 is compared with 10, 20, and 30.
+ * It is found at index 2 after 3 comparisons.
+ */
+
 #include <stdio.h>
 
 int main() {
