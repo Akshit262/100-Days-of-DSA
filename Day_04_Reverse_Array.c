@@ -1,3 +1,31 @@
+/*
+ * Day 04 - Reverse an Array Using Two Pointers
+ *
+ * Problem:
+ * Given an array of n integers, reverse the array
+ * in-place using the two-pointer approach.
+ *
+ * Input:
+ * - First line: integer n
+ * - Second line: n space-separated integers
+ *
+ * Output:
+ * - Print the reversed array, space-separated
+ *
+ * Example:
+ * Input:
+ * 5
+ * 1 2 3 4 5
+ *
+ * Output:
+ * 5 4 3 2 1
+ *
+ * Explanation:
+ * Swap elements from both ends:
+ * (1, 5), then (2, 4).
+ * The middle element 3 remains unchanged.
+ */
+
 #include <stdio.h>
 
 int main() {
