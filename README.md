@@ -1,4 +1,4 @@
-# 🚀 100 Days of DSA
+# 100 Days of DSA
 
 This repository documents my **100 Days of DSA journey**, where I consistently practice Data Structures and Algorithms to improve my problem-solving and programming skills.
 
