@@ -1,3 +1,34 @@
+/*
+ * Day 07 - Fibonacci Number Using Recursion
+ *
+ * Problem:
+ * Write a recursive function fib(n) to compute the n-th
+ * Fibonacci number where:
+ *
+ * fib(0) = 0
+ * fib(1) = 1
+ *
+ * Input:
+ * - Single integer n
+ *
+ * Output:
+ * - Print the n-th Fibonacci number
+ *
+ * Example:
+ * Input:
+ * 6
+ *
+ * Output:
+ * 8
+ *
+ * Explanation:
+ * Fibonacci sequence:
+ * 0, 1, 1, 2, 3, 5, 8
+ *
+ * Positions:
+ * 0, 1, 2, 3, 4, 5, 6
+ */
+
 #include <stdio.h>
 
 int fib(int n) {
