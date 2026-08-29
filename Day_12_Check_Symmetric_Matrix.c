@@ -1,3 +1,41 @@
+/*
+ * Day 12 - Check Symmetric Matrix
+ *
+ * Problem:
+ * Write a program to check whether a given matrix is symmetric.
+ *
+ * A matrix is symmetric if it is a square matrix and is equal
+ * to its transpose.
+ *
+ * In other words:
+ * matrix[i][j] == matrix[j][i]
+ *
+ * for all valid i and j.
+ *
+ * Input:
+ * - First line: two integers m and n representing the
+ *   number of rows and columns
+ * - Next m lines: n integers representing the matrix
+ *
+ * Output:
+ * - Print "Symmetric Matrix" if the matrix is symmetric
+ * - Otherwise, print "Not a Symmetric Matrix"
+ *
+ * Example:
+ * Input:
+ * 3 3
+ * 1 2 3
+ * 2 4 5
+ * 3 5 6
+ *
+ * Output:
+ * Symmetric Matrix
+ *
+ * Explanation:
+ * The matrix is square (3 x 3) and for every i and j,
+ * matrix[i][j] = matrix[j][i].
+ */
+
 #include <stdio.h>
 
 int main() {
