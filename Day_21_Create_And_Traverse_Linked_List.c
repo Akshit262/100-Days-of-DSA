@@ -1,7 +1,36 @@
+/*
+ * Day 21 - Create and Traverse Singly Linked List
+ *
+ * Problem:
+ * Create a singly linked list using n integers and
+ * traverse the list to print all its elements.
+ *
+ * Input:
+ * - First line: integer n
+ * - Second line: n space-separated integers
+ *
+ * Output:
+ * - Print all elements of the linked list in order,
+ *   separated by spaces.
+ *
+ * Example:
+ * Input:
+ * 5
+ * 10 20 30 40 50
+ *
+ * Output:
+ * 10 20 30 40 50
+ *
+ * Explanation:
+ * The elements are stored in nodes and connected using
+ * the next pointer:
+ *
+ * 10 -> 20 -> 30 -> 40 -> 50 -> NULL
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 
-// Structure for a linked list node
 struct Node {
     int data;
     struct Node *next;
@@ -15,7 +44,6 @@ int main() {
     struct Node *head = NULL;
     struct Node *tail = NULL;
 
-    // Create the linked list
     for (int i = 0; i < n; i++) {
         int value;
         scanf("%d", &value);
@@ -26,17 +54,16 @@ int main() {
         newNode->next = NULL;
 
         if (head == NULL) {
-            // First node
+            
             head = newNode;
             tail = newNode;
         } else {
-            // Add node at the end
+            
             tail->next = newNode;
             tail = newNode;
         }
     }
 
-    // Traverse and print the linked list
     struct Node *current = head;
 
     while (current != NULL) {
@@ -44,7 +71,6 @@ int main() {
         current = current->next;
     }
 
-    // Free allocated memory
     current = head;
 
     while (current != NULL) {
