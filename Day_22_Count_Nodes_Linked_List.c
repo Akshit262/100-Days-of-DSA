@@ -1,3 +1,25 @@
+/*
+ * Day 22 - Count Nodes in Linked List
+ *
+ * Problem:
+ * Create a singly linked list and count the number of nodes.
+ *
+ * Input:
+ * - First line: integer n
+ * - Second line: n space-separated integers
+ *
+ * Output:
+ * - Print the number of nodes.
+ *
+ * Example:
+ * Input:
+ * 5
+ * 10 20 30 40 50
+ *
+ * Output:
+ * 5
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -13,7 +35,6 @@ int main() {
     struct Node *head = NULL;
     struct Node *tail = NULL;
 
-    // Create linked list
     for (int i = 0; i < n; i++) {
         struct Node *newNode = malloc(sizeof(struct Node));
 
@@ -29,7 +50,6 @@ int main() {
         }
     }
 
-    // Count nodes
     int count = 0;
     struct Node *current = head;
 
