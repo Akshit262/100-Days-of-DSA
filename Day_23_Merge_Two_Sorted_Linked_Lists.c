@@ -1,3 +1,34 @@
+/*
+ * Day 23 - Merge Two Sorted Linked Lists
+ *
+ * Problem:
+ * Implement merging of two sorted linked lists using
+ * dynamic memory allocation.
+ *
+ * Input:
+ * - First line: integer n
+ * - Second line: n space-separated integers (first list)
+ * - Third line: integer m
+ * - Fourth line: m space-separated integers (second list)
+ *
+ * Output:
+ * - Print the merged linked list elements, space-separated.
+ *
+ * Example:
+ * Input:
+ * 5
+ * 10 20 30 40 50
+ * 4
+ * 15 25 35 45
+ *
+ * Output:
+ * 10 15 20 25 30 35 40 45 50
+ *
+ * Explanation:
+ * Compare nodes of both lists, append the smaller node
+ * to the result, and continue until all nodes are merged.
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -6,7 +37,6 @@ struct Node {
     struct Node *next;
 };
 
-// Create a new node
 struct Node* createNode(int data) {
     struct Node *newNode = malloc(sizeof(struct Node));
 
@@ -16,7 +46,6 @@ struct Node* createNode(int data) {
     return newNode;
 }
 
-// Add node at the end of a linked list
 void insertEnd(struct Node **head, struct Node **tail, int data) {
     struct Node *newNode = createNode(data);
 
@@ -29,7 +58,6 @@ void insertEnd(struct Node **head, struct Node **tail, int data) {
     }
 }
 
-// Merge two sorted linked lists
 struct Node* mergeLists(struct Node *head1, struct Node *head2) {
     struct Node dummy;
     struct Node *tail = &dummy;
@@ -49,7 +77,6 @@ struct Node* mergeLists(struct Node *head1, struct Node *head2) {
         tail = tail->next;
     }
 
-    // Add remaining nodes
     if (head1 != NULL) {
         tail->next = head1;
     } else {
@@ -59,7 +86,6 @@ struct Node* mergeLists(struct Node *head1, struct Node *head2) {
     return dummy.next;
 }
 
-// Print linked list
 void printList(struct Node *head) {
     while (head != NULL) {
         printf("%d ", head->data);
@@ -75,7 +101,6 @@ int main() {
     struct Node *head1 = NULL;
     struct Node *tail1 = NULL;
 
-    // Create first sorted list
     for (int i = 0; i < n; i++) {
         int value;
         scanf("%d", &value);
@@ -87,17 +112,14 @@ int main() {
     struct Node *head2 = NULL;
     struct Node *tail2 = NULL;
 
-    // Create second sorted list
     for (int i = 0; i < m; i++) {
         int value;
         scanf("%d", &value);
         insertEnd(&head2, &tail2, value);
     }
 
-    // Merge both lists
     struct Node *merged = mergeLists(head1, head2);
 
-    // Print merged list
     printList(merged);
 
     return 0;
