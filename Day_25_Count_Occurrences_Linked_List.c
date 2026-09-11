@@ -1,3 +1,34 @@
+/*
+ * Day 25 - Count Occurrences of an Element in Linked List
+ *
+ * Problem:
+ * Count the number of times a given key appears in a
+ * singly linked list using dynamic memory allocation.
+ *
+ * Input:
+ * - First line: integer n (number of nodes)
+ * - Second line: n space-separated integers
+ * - Third line: integer key
+ *
+ * Output:
+ * - Print the number of times the key appears in the
+ *   linked list.
+ *
+ * Example:
+ * Input:
+ * 6
+ * 10 20 30 20 40 20
+ * 20
+ *
+ * Output:
+ * 3
+ *
+ * Explanation:
+ * Traverse the linked list from head to end.
+ * Each time a node's data matches the key, increment
+ * the counter.
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -30,7 +61,7 @@ int main() {
     }
 
     scanf("%d", &key);
-
+    
     int count = 0;
     struct Node *current = head;
 
@@ -43,7 +74,7 @@ int main() {
     }
 
     printf("%d", count);
-
+    
     current = head;
 
     while (current != NULL) {
