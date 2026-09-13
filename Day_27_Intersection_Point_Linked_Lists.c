@@ -1,3 +1,35 @@
+/*
+ * Day 27 - Find Intersection Point of Two Linked Lists
+ *
+ * Problem:
+ * Find the intersection point of two linked lists.
+ *
+ * Input:
+ * - First line: integer n
+ * - Second line: n space-separated integers (first list)
+ * - Third line: integer m
+ * - Fourth line: m space-separated integers (second list)
+ *
+ * Output:
+ * - Print the value of the intersection node
+ * - Otherwise print "No Intersection"
+ *
+ * Example:
+ * Input:
+ * 5
+ * 10 20 30 40 50
+ * 4
+ * 15 25 30 40 50
+ *
+ * Output:
+ * 30
+ *
+ * Explanation:
+ * Calculate the lengths of both lists, advance the pointer
+ * in the longer list, and then traverse both lists together.
+ * The first common value is treated as the intersection.
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 
