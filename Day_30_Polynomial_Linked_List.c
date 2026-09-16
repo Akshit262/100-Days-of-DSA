@@ -1,3 +1,40 @@
+/*
+ * Day 30 - Polynomial Using Linked List
+ *
+ * Problem:
+ * Implement a polynomial using a linked list with
+ * dynamic memory allocation.
+ *
+ * Each node stores:
+ * - coefficient
+ * - exponent
+ * - pointer to the next node
+ *
+ * Input:
+ * - First line: integer n (number of terms)
+ * - Next n lines: two integers (coefficient and exponent)
+ *
+ * Output:
+ * - Print the polynomial in standard form.
+ *
+ * Example:
+ * Input:
+ * 5
+ * 10 4
+ * 20 3
+ * 30 2
+ * 40 1
+ * 50 0
+ *
+ * Output:
+ * 10x^4 + 20x^3 + 30x^2 + 40x + 50
+ *
+ * Explanation:
+ * Each node stores a coefficient and exponent.
+ * The nodes are traversed to print the polynomial
+ * in decreasing order of exponent.
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 
