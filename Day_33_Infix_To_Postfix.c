@@ -1,3 +1,31 @@
+/*
+ * Day 33 - Infix to Postfix Conversion
+ *
+ * Problem:
+ * Convert an infix expression to postfix notation using a stack.
+ *
+ * Input:
+ * - Single line: infix expression
+ * - Operands are single characters.
+ *
+ * Output:
+ * - Print the postfix expression.
+ *
+ * Example:
+ * Input:
+ * A+B*C
+ *
+ * Output:
+ * ABC*+
+ *
+ * Explanation:
+ * Operator precedence:
+ * * > +
+ *
+ * The stack is used to handle operator precedence
+ * and associativity.
+ */
+
 #include <stdio.h>
 #include <ctype.h>
 
