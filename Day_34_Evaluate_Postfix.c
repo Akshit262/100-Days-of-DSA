@@ -1,3 +1,30 @@
+/*
+ * Day 34 - Evaluate Postfix Expression
+ *
+ * Problem:
+ * Evaluate a postfix expression using a stack implemented
+ * with a linked list and dynamic memory allocation.
+ *
+ * Input:
+ * - Postfix expression containing operands and operators
+ *
+ * Output:
+ * - Print the integer result.
+ *
+ * Example:
+ * Input:
+ * 2 3 1 * + 9 -
+ *
+ * Output:
+ * -4
+ *
+ * Explanation:
+ * Use a stack to store operands.
+ * Apply operators by popping operands, performing the operation,
+ * and pushing the result back onto the stack.
+ * The final stack top contains the result.
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
