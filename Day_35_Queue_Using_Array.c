@@ -1,3 +1,34 @@
+/*
+ * Day 35 - Queue Using Array
+ *
+ * Problem:
+ * Implement a queue using an array.
+ *
+ * A queue follows FIFO:
+ * First In, First Out.
+ *
+ * Input:
+ * - First line: integer n (number of elements)
+ * - Second line: n space-separated integers
+ *
+ * Output:
+ * - Print queue elements from front to rear,
+ *   separated by spaces.
+ *
+ * Example:
+ * Input:
+ * 5
+ * 10 20 30 40 50
+ *
+ * Output:
+ * 10 20 30 40 50
+ *
+ * Explanation:
+ * Enqueue inserts elements at the rear.
+ * Dequeue removes elements from the front.
+ * Display prints elements from front to rear.
+ */
+
 #include <stdio.h>
 
 #define MAX 1000
