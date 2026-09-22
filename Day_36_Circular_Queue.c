@@ -1,3 +1,38 @@
+/*
+ * Day 36 - Circular Queue Using Array
+ *
+ * Problem:
+ * Implement a circular queue using an array.
+ *
+ * Input:
+ * - First line: integer n (number of elements to enqueue)
+ * - Second line: n space-separated integers
+ * - Third line: integer m (number of dequeue operations)
+ *
+ * Output:
+ * - Print queue elements from front to rear after
+ *   performing the dequeue operations.
+ *
+ * Example:
+ * Input:
+ * 5
+ * 10 20 30 40 50
+ * 2
+ *
+ * Output:
+ * 30 40 50
+ *
+ * Explanation:
+ * The queue initially contains:
+ * 10 20 30 40 50
+ *
+ * After two dequeue operations:
+ * 30 40 50
+ *
+ * The circular queue allows front and rear to wrap around
+ * when they reach the end of the array.
+ */
+
 #include <stdio.h>
 
 #define MAX 1000
