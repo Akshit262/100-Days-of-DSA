@@ -1,3 +1,32 @@
+/*
+ * Day 38 - Deque (Double-Ended Queue)
+ *
+ * Problem:
+ * Implement a Deque using an array.
+ *
+ * A Deque allows insertion and deletion from both
+ * the front and the rear.
+ *
+ * Operations:
+ * 1. push_front(value) - Insert at the front
+ * 2. push_back(value)  - Insert at the rear
+ * 3. pop_front()       - Remove from the front
+ * 4. pop_back()        - Remove from the rear
+ * 5. front()           - Return the front element
+ * 6. back()            - Return the rear element
+ * 7. empty()           - Check whether deque is empty
+ * 8. size()            - Return number of elements
+ *
+ * Input:
+ * - First line: integer n (number of operations)
+ * - Next n lines: deque operations
+ *
+ * Output:
+ * - Print results of front, back, size, pop_front,
+ *   and pop_back operations.
+ * - Print -1 if the deque is empty.
+ */
+
 #include <stdio.h>
 #include <string.h>
 
