@@ -1,3 +1,39 @@
+/*
+ * Day 39 - Min Heap Using Array
+ *
+ * Problem:
+ * Implement a Min Heap using an array where the smallest
+ * element is always at the root.
+ *
+ * Supported Operations:
+ * - insert x
+ * - extractMin
+ * - peek
+ *
+ * Input:
+ * - First line contains integer N
+ * - Next N lines contain heap operations
+ *
+ * Output:
+ * - Print results of extractMin and peek
+ * - Print -1 if operation cannot be performed
+ *
+ * Example:
+ * Input:
+ * 6
+ * insert 40
+ * insert 10
+ * insert 30
+ * peek
+ * extractMin
+ * peek
+ *
+ * Output:
+ * 10
+ * 10
+ * 30
+ */
+
 #include <stdio.h>
 #include <string.h>
 
