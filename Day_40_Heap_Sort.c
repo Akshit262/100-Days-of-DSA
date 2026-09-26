@@ -1,3 +1,29 @@
+/*
+ * Day 40 - Heap Sort Using Max Heap
+ *
+ * Problem:
+ * Implement Heap Sort using a Max Heap to sort an array
+ * in ascending order.
+ *
+ * First build a Max Heap, then repeatedly extract the
+ * maximum element and place it at the end of the array.
+ *
+ * Input:
+ * - First line: integer n
+ * - Second line: n space-separated integers
+ *
+ * Output:
+ * - Print the sorted array in ascending order.
+ *
+ * Example:
+ * Input:
+ * 5
+ * 4 1 3 9 7
+ *
+ * Output:
+ * 1 3 4 7 9
+ */
+
 #include <stdio.h>
 
 void heapify(int arr[], int n, int i) {
@@ -5,7 +31,6 @@ void heapify(int arr[], int n, int i) {
     int left = 2 * i + 1;
     int right = 2 * i + 2;
 
-    
     if (left < n && arr[left] > arr[largest]) {
         largest = left;
     }
