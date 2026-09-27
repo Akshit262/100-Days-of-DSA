@@ -1,3 +1,26 @@
+/*
+ * Day 41 - Queue Using Linked List
+ *
+ * Problem:
+ * Implement a Queue using a linked list supporting
+ * enqueue and dequeue operations.
+ *
+ * Queue follows FIFO:
+ * First In, First Out
+ *
+ * Input:
+ * - First line contains integer N
+ * - Next N lines contain queue operations
+ *
+ * Operations:
+ * - enqueue x  -> Add x to the rear of the queue
+ * - dequeue    -> Remove and print the front element
+ *
+ * Output:
+ * - Print dequeued elements
+ * - Print -1 if dequeue is attempted on an empty queue
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
