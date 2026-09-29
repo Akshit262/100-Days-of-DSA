@@ -1,3 +1,26 @@
+/*
+ * Day 43 - Construct Binary Tree from Level-Order Traversal
+ *
+ * Problem:
+ * Construct a Binary Tree from the given level-order traversal.
+ *
+ * Input:
+ * - First line contains integer N
+ * - Second line contains N space-separated integers
+ * - -1 represents NULL
+ *
+ * Output:
+ * - Print inorder traversal of the constructed tree.
+ *
+ * Example:
+ * Input:
+ * 7
+ * 1 2 3 4 5 -1 6
+ *
+ * Output:
+ * 4 2 5 1 3 6
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 
