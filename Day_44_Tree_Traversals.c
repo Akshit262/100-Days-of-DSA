@@ -1,3 +1,31 @@
+/*
+ * Day 44 - Inorder, Preorder and Postorder Traversals
+ *
+ * Problem:
+ * Perform inorder, preorder, and postorder traversals
+ * of a given binary tree.
+ *
+ * Input:
+ * - First line contains integer N
+ * - Second line contains level-order traversal
+ * - -1 represents NULL
+ *
+ * Output:
+ * - Print inorder traversal
+ * - Print preorder traversal
+ * - Print postorder traversal
+ *
+ * Example:
+ * Input:
+ * 7
+ * 1 2 3 4 5 6 7
+ *
+ * Output:
+ * 4 2 5 1 6 3 7
+ * 1 2 4 5 3 6 7
+ * 4 5 2 6 7 3 1
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 
