@@ -1,3 +1,26 @@
+/*
+ * Day 45 - Height of Binary Tree
+ *
+ * Problem:
+ * Find the height (maximum depth) of a given binary tree.
+ *
+ * Input:
+ * - First line contains integer N
+ * - Second line contains level-order traversal
+ * - -1 represents NULL
+ *
+ * Output:
+ * - Print the height of the tree.
+ *
+ * Example:
+ * Input:
+ * 7
+ * 1 2 3 4 5 -1 -1
+ *
+ * Output:
+ * 3
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 
