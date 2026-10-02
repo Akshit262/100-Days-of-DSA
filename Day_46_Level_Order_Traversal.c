@@ -1,3 +1,26 @@
+/*
+ * Day 46 - Level Order Traversal
+ *
+ * Problem:
+ * Implement level order traversal of a binary tree.
+ *
+ * Input:
+ * - First line: integer N
+ * - Second line: N integers in level-order
+ * - -1 represents NULL
+ *
+ * Output:
+ * - Print the level-order traversal of the tree.
+ *
+ * Example:
+ * Input:
+ * 7
+ * 1 2 3 4 5 6 7
+ *
+ * Output:
+ * 1 2 3 4 5 6 7
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 
