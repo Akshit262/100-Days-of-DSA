@@ -1,3 +1,33 @@
+/*
+ * Day 48 - Count Leaf Nodes
+ *
+ * Problem:
+ * Count the number of leaf nodes in a binary tree.
+ *
+ * A leaf node is a node that has no left child
+ * and no right child.
+ *
+ * Input:
+ * - First line: integer N
+ * - Second line: N integers in level order
+ * - -1 represents NULL
+ *
+ * Output:
+ * - Print the number of leaf nodes.
+ *
+ * Example:
+ * Input:
+ * 7
+ * 1 2 3 4 5 -1 -1
+ *
+ * Output:
+ * 2
+ *
+ * Explanation:
+ * The leaf nodes are 4 and 5.
+ * Therefore, the total number of leaf nodes is 2.
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 
