@@ -1,3 +1,27 @@
+/*
+ * Day 49 - BST Insert
+ *
+ * Problem:
+ * Insert a given value into a Binary Search Tree.
+ *
+ * Input:
+ * - First line: integer N
+ * - Second line: N integers representing the BST
+ * - Third line: integer value to insert
+ *
+ * Output:
+ * - Print the inorder traversal of the BST after insertion.
+ *
+ * Example:
+ * Input:
+ * 5
+ * 4 2 7 1 3
+ * 5
+ *
+ * Output:
+ * 1 2 3 4 5 7
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 
