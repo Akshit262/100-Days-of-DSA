@@ -1,3 +1,28 @@
+/*
+ * Day 50 - BST Search
+ *
+ * Problem:
+ * Search for a given value in a Binary Search Tree.
+ *
+ * Input:
+ * - First line: integer N
+ * - Second line: N integers used to create the BST
+ * - Third line: value to search
+ *
+ * Output:
+ * - Print the value if it is found.
+ * - Otherwise print "Not Found".
+ *
+ * Example:
+ * Input:
+ * 5
+ * 4 2 7 1 3
+ * 2
+ *
+ * Output:
+ * 2
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 
