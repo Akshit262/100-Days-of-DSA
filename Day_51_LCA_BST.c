@@ -1,3 +1,28 @@
+/*
+ * Day 51 - Lowest Common Ancestor in BST
+ *
+ * Problem:
+ * Find the Lowest Common Ancestor (LCA) of two nodes
+ * in a Binary Search Tree.
+ *
+ * Input:
+ * - First line: integer N
+ * - Second line: N space-separated integers
+ * - Third line: two node values
+ *
+ * Output:
+ * - Print the LCA value.
+ *
+ * Example:
+ * Input:
+ * 7
+ * 6 2 8 0 4 7 9
+ * 2 8
+ *
+ * Output:
+ * 6
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 
