@@ -1,3 +1,26 @@
+/*
+ * Problem: Find Lowest Common Ancestor (LCA) of two nodes
+ *          in a Binary Tree.
+ *
+ * Input:
+ * - First line: integer N
+ * - Second line: N integers in level-order
+ * - -1 represents NULL
+ * - Third line: two node values
+ *
+ * Output:
+ * - Print the LCA value.
+ *
+ * Example:
+ * Input:
+ * 7
+ * 1 2 3 4 5 6 7
+ * 4 5
+ *
+ * Output:
+ * 2
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 
