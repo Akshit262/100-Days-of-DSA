@@ -1,3 +1,36 @@
+/*
+ * Day 53 - Vertical Order Traversal of Binary Tree
+ *
+ * Problem:
+ * Given a binary tree, print its vertical order traversal.
+ * Nodes on the same vertical line are printed from top
+ * to bottom and from left to right.
+ *
+ * Input:
+ * - First line contains integer N
+ * - Second line contains N space-separated integers
+ * - -1 represents NULL
+ *
+ * Output:
+ * - Print nodes column by column from leftmost to rightmost.
+ *
+ * Example:
+ * Input:
+ * 7
+ * 1 2 3 4 5 6 7
+ *
+ * Output:
+ * 4
+ * 2
+ * 1 5 6
+ * 3
+ * 7
+ *
+ * Explanation:
+ * Nodes are grouped according to their horizontal distance
+ * from the root.
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 
