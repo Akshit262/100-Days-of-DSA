@@ -1,3 +1,27 @@
+/*
+ * Day 54 - Zigzag Level Order Traversal
+ *
+ * Problem:
+ * Perform zigzag (spiral) level order traversal of
+ * a binary tree.
+ *
+ * Input:
+ * - First line: integer N
+ * - Second line: level-order traversal
+ * - -1 represents NULL
+ *
+ * Output:
+ * - Print traversal in zigzag order.
+ *
+ * Example:
+ * Input:
+ * 7
+ * 1 2 3 4 5 6 7
+ *
+ * Output:
+ * 1 3 2 4 5 6 7
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 
