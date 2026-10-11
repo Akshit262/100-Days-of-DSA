@@ -1,3 +1,31 @@
+/*
+ * Day 55 - Right View of Binary Tree
+ *
+ * Problem:
+ * Print the nodes visible when the binary tree is
+ * viewed from the right side.
+ *
+ * Input:
+ * - First line contains integer N
+ * - Second line contains level-order traversal
+ * - -1 represents NULL
+ *
+ * Output:
+ * - Print right view nodes.
+ *
+ * Example:
+ * Input:
+ * 7
+ * 1 2 3 4 5 -1 6
+ *
+ * Output:
+ * 1 3 6
+ *
+ * Explanation:
+ * At each level, the rightmost node is visible
+ * from the right view.
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 
