@@ -1,3 +1,17 @@
+/*
+Problem Statement:
+Build a graph with n vertices and m edges using adjacency matrix representation.
+The graph may be directed or undirected.
+
+Input:
+- First line contains n (number of vertices)
+- Second line contains m (number of edges)
+- Next m lines contain pairs (u, v)
+
+Output:
+- Print the n x n adjacency matrix.
+*/
+
 #include <stdio.h>
 
 int main() {
