@@ -1,3 +1,15 @@
+/*
+Problem: Perform DFS starting from a given source vertex using recursion.
+
+Input:
+- First line: integer n
+- Next n lines: number of neighbors followed by the neighbors
+- Last line: starting vertex s
+
+Output:
+- DFS traversal order
+*/
+
 #include <stdio.h>
 
 #define MAX 100
