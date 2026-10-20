@@ -1,3 +1,15 @@
+/*
+Problem: Perform BFS from a given source using queue.
+
+Input:
+- First line: integer n
+- Next n lines: number of neighbors followed by the neighbors
+- Last line: source vertex s
+
+Output:
+- BFS traversal order
+*/
+
 #include <stdio.h>
 
 #define MAX 100
