@@ -1,3 +1,14 @@
+/*
+Problem: Using DFS and parent tracking, detect if undirected graph has a cycle.
+
+Input:
+- First line contains n and m
+- Next m lines contain edges u v
+
+Output:
+- YES or NO
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
