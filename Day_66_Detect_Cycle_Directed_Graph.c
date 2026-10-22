@@ -1,3 +1,15 @@
+/*
+Problem Statement:
+Detect cycle in directed graph using DFS and recursion stack.
+
+Input Format:
+- First line contains two integers n and m.
+- Next m lines contain directed edges u v.
+
+Output Format:
+- Print YES if cycle exists, otherwise NO.
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
