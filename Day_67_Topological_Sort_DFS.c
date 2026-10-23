@@ -1,3 +1,14 @@
+/*
+Problem: Print topological ordering of a Directed Acyclic Graph (DAG) using DFS.
+
+Input:
+- First line contains two integers n and m.
+- Next m lines contain directed edges u v.
+
+Output:
+- Print a valid topological ordering.
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
