@@ -1,3 +1,14 @@
+/*
+Problem: Implement topological sorting using in-degree array and queue (Kahn's Algorithm).
+
+Input:
+- First line contains two integers n and m.
+- Next m lines contain directed edges u v.
+
+Output:
+- Print a valid topological ordering.
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
