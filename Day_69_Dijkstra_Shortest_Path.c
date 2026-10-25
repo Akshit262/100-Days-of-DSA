@@ -1,3 +1,16 @@
+/*
+Problem: Given weighted graph with non-negative edges, compute shortest path from source using priority queue.
+
+Input:
+- First line contains n and m.
+- Next m lines contain u, v, w representing an edge from u to v with weight w.
+- Last line contains the source vertex.
+
+Output:
+- Print the shortest distance from the source to every vertex.
+- Print -1 for unreachable vertices.
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <limits.h>
