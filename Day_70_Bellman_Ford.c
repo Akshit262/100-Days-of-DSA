@@ -1,3 +1,16 @@
+/*
+Problem: Compute shortest path from source and detect negative weight cycles using Bellman-Ford.
+
+Input:
+- First line contains n and m.
+- Next m lines contain directed edges u v w.
+- Source vertex is 0.
+
+Output:
+- Print shortest distances from source.
+- Print NEGATIVE CYCLE if a negative weight cycle is reachable from source.
+*/
+
 #include <stdio.h>
 #include <limits.h>
 
