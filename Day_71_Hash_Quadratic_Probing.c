@@ -1,3 +1,34 @@
+/*
+Problem Statement
+Implement a hash table using quadratic probing with formula:
+
+h(k, i) = (h(k) + i*i) % m
+
+Input Format
+- First line contains integer m, the size of the hash table.
+- Second line contains integer n, the number of operations.
+- Next n lines contain INSERT or SEARCH operations.
+
+Output Format
+- Print FOUND for successful SEARCH operations.
+- Print NOT FOUND for unsuccessful SEARCH operations.
+
+Sample Input
+7
+4
+INSERT 49
+INSERT 56
+SEARCH 49
+SEARCH 15
+
+Sample Output
+FOUND
+NOT FOUND
+
+Explanation
+Collisions are resolved using i*i jumps.
+*/
+
 #include <stdio.h>
 #include <string.h>
 
