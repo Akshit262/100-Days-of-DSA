@@ -1,3 +1,35 @@
+/*
+Problem: Given a weighted graph with n vertices, implement the Floyd-Warshall algorithm
+to compute the shortest distances between every pair of vertices. The graph may contain
+positive or negative edge weights, but it does not contain any negative weight cycles.
+
+Input:
+- First line: integer n representing the number of vertices
+- Next n lines: n space-separated integers representing the adjacency matrix
+- -1 indicates no direct edge between two vertices
+
+Output:
+- Print the shortest distance matrix.
+
+Example:
+Input:
+4
+0 5 -1 10
+-1 0 3 -1
+-1 -1 0 1
+-1 -1 -1 0
+
+Output:
+0 5 8 9
+-1 0 3 4
+-1 -1 0 1
+-1 -1 -1 0
+
+Explanation:
+The Floyd-Warshall algorithm considers each vertex as an intermediate point
+and updates the shortest paths between all pairs of vertices.
+*/
+
 #include <stdio.h>
 #include <limits.h>
 
