@@ -1,3 +1,14 @@
+/*
+Problem: Implement merge sort (divide, sort halves, merge).
+
+Input:
+- First line: integer n
+- Second line: n space-separated integers
+
+Output:
+- Print sorted array.
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
